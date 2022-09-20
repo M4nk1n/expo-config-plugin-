@@ -1,5 +1,5 @@
 {
-  "name": "expo-config-plugin-jpush",
+  "name": "@mankin/expo-config-plugin-jpush",
   "version": "0.0.1",
   "description": "Config plugin to auto configure jpush on prebuild",
   "main": "build/withJPush.js",

@@ -1,5 +1,5 @@
 {
-  "name": "expo-config-plugin-ble",
+  "name": "@mankin/expo-config-plugin-ble",
   "version": "0.0.1",
   "description": "Config plugin to auto configure ble permission on prebuild",
   "main": "build/withBLE.js",
