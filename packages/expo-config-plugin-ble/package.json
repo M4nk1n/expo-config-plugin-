@@ -1,0 +1,31 @@
+{
+  "name": "expo-config-plugin-ble",
+  "version": "0.0.1",
+  "description": "Config plugin to auto configure ble permission on prebuild",
+  "main": "build/withBLE.js",
+  "types": "build/withBLE.d.ts",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M4nk1n/ble-expo-config-plugin.git"
+  },
+  "files": [
+    "build",
+    "app.plugin.js"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "rm -rf build tsconfig.tsbuildinfo"
+  },
+  "keywords": [
+    "react-native",
+    "expo",
+    "ble"
+  ],
+  "jest": {
+    "preset": "expo-module-scripts"
+  },
+  "peerDependencies": {
+    "expo": "^46.0.2"
+  }
+}
