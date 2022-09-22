@@ -1,4 +1,4 @@
-# ble-expo-config-plugin
+# expo-config-plugin-ble
 
 > Fork from: [config-plugins/react-native-ble-plx](https://github.com/expo/config-plugins/tree/main/packages/react-native-ble-plx)
 
@@ -7,7 +7,7 @@ Config plugin to auto-configure ble permission when the native code is generated
 ## Expo installation
 
 > Tested against Expo SDK 46.
-
+>
 > This package cannot be used in the "Expo Go" app because [it requires custom native code](https://docs.expo.io/workflow/customizing/).
 > First install the package with pnpm, yarn, npm, or [`expo install`](https://docs.expo.io/workflow/expo-cli/#expo-install).
 
@@ -16,7 +16,7 @@ After installing this npm package, add the [config plugin](https://docs.expo.io/
 ```json
 {
   "expo": {
-    "plugins": ["ble-expo-config-plugin"]
+    "plugins": ["@mankin/expo-config-plugin-ble"]
   }
 }
 ```
@@ -44,7 +44,7 @@ The plugin provides props for extra customization. Every time you change the pro
   "expo": {
     "plugins": [
       [
-        "ble-expo-config-plugin",
+        "@mankin/expo-config-plugin-ble",
         {
           "isBackgroundEnabled": true,
           "modes": ["peripheral", "central"],

@@ -1,42 +1,38 @@
-# jpush-expo-config-plugin
+# expo-config-plugin-jpush
 
-An expo config plugin for JPush
-
-一个极光推送的 Expo 自动配置插件, 免去配置原生项目的繁琐步骤
+一个极光推送的 Expo 自动配置插件，免去配置原生项目的繁琐步骤
 
 此软件包不能在 "Expo Go" 应用程序中使用
 
 ## 1. 安装
 
-```
-npm install jpush-expo-config-plugin --save
-或者
-yarn add jpush-expo-config-plugin
+首先通过 [`expo install`](https://docs.expo.io/workflow/expo-cli/#expo-install) 或者 `pnpm/yarn/npm` 等包管理工具安装本依赖。
+
+```bash
+npx expo install @mankin/expo-config-plugin-jpush
 ```
 
-> 注意: 如果项目里没有 jpush-react-native、jcore-react-native, 需要安装
+> 注意：如果项目里没有 jpush-react-native、jcore-react-native, 需要安装
 >
-> ```
-> npm install jpush-react-native jcore-react-native --save
-> 或者
+> ```bash
 > yarn add jpush-react-native jcore-react-native
 > ```
 
 ## 2. 配置
 
-安装此 npm 包后, 请将 [配置插件](https://docs.expo.io/guides/config-plugins/) 添加到 app.json 或 app.config.js 的 [插件数组](https://docs.expo.io/versions/latest/config/app/#plugins) :
+安装此 npm 包后，请将 [配置插件](https://docs.expo.io/guides/config-plugins/) 添加到 app.json 或 app.config.js 的 [插件数组](https://docs.expo.io/versions/latest/config/app/#plugins) :
 
-app.json
+### app.json
 
 ```json
 {
   "expo": {
     "plugins": [
       [
-        "jpush-expo-config-plugin",
+        "@mankin/expo-config-plugin-jpush",
         {
-          "appKey": "你的极光推送AppKey",
-          "channel": "你的极光推送Channel"
+          "appKey": "你的极光推送 AppKey",
+          "channel": "你的极光推送 Channel"
         }
       ]
     ]
@@ -44,8 +40,8 @@ app.json
 }
 ```
 
-接下来, 按照 ["添加自定义 Native 代码"](https://docs.expo.io/workflow/customizing/) 指南中的描述重新构建应用程序
+接下来，按照 ["添加自定义 Native 代码"](https://docs.expo.io/workflow/customizing/) 指南中的描述重新构建应用程序
 
-```
+```bash
 expo prebuild
 ```
