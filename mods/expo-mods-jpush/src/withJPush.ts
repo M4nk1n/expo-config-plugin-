@@ -4,7 +4,7 @@ import { setAppBuildGradle, setSettingsGradle } from "./withAndroidGradle"
 import { setAndroidManifest } from "./withAndroidManifest"
 import { setAppDelegate, setAppDelegateHeader } from "./withAppDelegate"
 
-const pkg = { name: "expo-config-plugin-jpush", version: "UNVERSIONED" }
+const pkg = { name: "expo-mods-jpush", version: "UNVERSIONED" }
 
 /**
  * Apply BLE configuration for Expo SDK 42 projects.

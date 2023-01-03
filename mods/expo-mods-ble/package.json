@@ -1,5 +1,5 @@
 {
-  "name": "@mankin/expo-config-plugin-ble",
+  "name": "@mankin/expo-mods-ble",
   "version": "0.0.1",
   "description": "Config plugin to auto configure ble permission on prebuild",
   "main": "build/withBLE.js",
@@ -7,8 +7,8 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/M4nk1n/expo-config-plugin.git",
-    "directory": "packages/expo-config-plugin-ble"
+    "url": "https://github.com/M4nk1n/expo-modules.git",
+    "directory": "packages/expo-mods-ble"
   },
   "files": [
     "build",
@@ -27,6 +27,6 @@
     "preset": "expo-module-scripts"
   },
   "peerDependencies": {
-    "expo": "^46.0.2"
+    "expo": "<=47"
   }
 }

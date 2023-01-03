@@ -1,4 +1,4 @@
-# expo-config-plugin-ble
+# expo-mods-ble
 
 > Fork from: [config-plugins/react-native-ble-plx](https://github.com/expo/config-plugins/tree/main/packages/react-native-ble-plx)
 
@@ -16,7 +16,7 @@ After installing this npm package, add the [config plugin](https://docs.expo.io/
 ```json
 {
   "expo": {
-    "plugins": ["@mankin/expo-config-plugin-ble"]
+    "plugins": ["@mankin/expo-mods-ble"]
   }
 }
 ```
@@ -44,7 +44,7 @@ The plugin provides props for extra customization. Every time you change the pro
   "expo": {
     "plugins": [
       [
-        "@mankin/expo-config-plugin-ble",
+        "@mankin/expo-mods-ble",
         {
           "isBackgroundEnabled": true,
           "modes": ["peripheral", "central"],

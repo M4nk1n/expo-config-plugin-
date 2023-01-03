@@ -1,5 +1,5 @@
 {
-  "name": "@mankin/expo-config-plugin-jpush",
+  "name": "@mankin/expo-mods-jpush",
   "version": "0.0.1",
   "description": "Config plugin to auto configure jpush on prebuild",
   "main": "build/withJPush.js",
@@ -7,8 +7,8 @@
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/M4nk1n/expo-config-plugin.git",
-    "directory": "packages/expo-config-plugin-jpush"
+    "url": "https://github.com/M4nk1n/expo-modules.git",
+    "directory": "packages/expo-mods-jpush"
   },
   "files": [
     "build",
@@ -27,6 +27,6 @@
     "preset": "expo-module-scripts"
   },
   "peerDependencies": {
-    "expo": "^46.0.2"
+    "expo": "<=47"
   }
 }

@@ -4,10 +4,10 @@ import { withBLEAndroidManifest } from "./withBLEAndroidManifest"
 import { BackgroundMode, withBLEBackgroundModes } from "./withBLEBackgroundModes"
 import { withBluetoothPermissions } from "./withBluetoothPermissions"
 
-const pkg = { name: "ble-expo-config-plugin", version: "UNVERSIONED" }
+const pkg = { name: "expo-mods-ble", version: "UNVERSIONED" }
 
 /**
- * Apply BLE configuration for Expo SDK 42 projects.
+ * Apply BLE native configuration.
  */
 const withBLE: ConfigPlugin<
   {

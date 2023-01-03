@@ -1,4 +1,4 @@
-# expo-config-plugin-jpush
+# expo-mods-jpush
 
 一个极光推送的 Expo 自动配置插件，免去配置原生项目的繁琐步骤
 
@@ -9,7 +9,7 @@
 首先通过 [`expo install`](https://docs.expo.io/workflow/expo-cli/#expo-install) 或者 `pnpm/yarn/npm` 等包管理工具安装本依赖。
 
 ```bash
-npx expo install @mankin/expo-config-plugin-jpush
+npx expo install @mankin/expo-mods-jpush
 ```
 
 > 注意：如果项目里没有 jpush-react-native、jcore-react-native, 需要安装
@@ -29,7 +29,7 @@ npx expo install @mankin/expo-config-plugin-jpush
   "expo": {
     "plugins": [
       [
-        "@mankin/expo-config-plugin-jpush",
+        "@mankin/expo-mods-jpush",
         {
           "appKey": "你的极光推送 AppKey",
           "channel": "你的极光推送 Channel"

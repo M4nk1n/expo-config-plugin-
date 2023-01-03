@@ -1,5 +1,5 @@
 {
-  "name": "expo-config-plugin",
+  "name": "expo-modules",
   "version": "1.0.0",
   "private": true,
   "description": "Config plugin to auto configure on prebuild",
