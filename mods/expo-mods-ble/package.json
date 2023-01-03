@@ -8,7 +8,7 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/M4nk1n/expo-modules.git",
-    "directory": "packages/expo-mods-ble"
+    "directory": "mods/expo-mods-ble"
   },
   "files": [
     "build",
