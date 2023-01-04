@@ -24,13 +24,13 @@ importers:
 
   mods/expo-mods-ble:
     specifiers:
-      expo: <=47
+      expo: '>=47'
     dependencies:
       expo: 47.0.10_@babel+core@7.20.7
 
   mods/expo-mods-jpush:
     specifiers:
-      expo: <=47
+      expo: '>=47'
     dependencies:
       expo: 47.0.10_@babel+core@7.20.7
 
@@ -1697,7 +1697,7 @@ packages:
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
       '@types/node': 18.11.18
-      '@types/yargs': 15.0.14
+      '@types/yargs': 15.0.15
       chalk: 4.1.2
     dev: false
 
@@ -1818,8 +1818,8 @@ packages:
     resolution: {integrity: sha512-iO9ZQHkZxHn4mSakYV0vFHAVDyEOIJQrV2uZ06HxEPcx+mt8swXoZHIbaaJ2crJYFfErySgktuTZ3BeLz+XmFA==}
     dev: false
 
-  /@types/yargs/15.0.14:
-    resolution: {integrity: sha512-yEJzHoxf6SyQGhBhIYGXQDSCkJjB6HohDShto7m8vaKg9Yp0Yn8+71J9eakh2bnPg6BfsH9PRMhiRTZnd4eXGQ==}
+  /@types/yargs/15.0.15:
+    resolution: {integrity: sha512-IziEYMU9XoVj8hWg7k+UJrXALkGFjWJhn5QFEv9q4p+v40oZhSuC135M38st8XPjICL7Ey4TV64ferBGUoJhBg==}
     dependencies:
       '@types/yargs-parser': 21.0.0
     dev: false
