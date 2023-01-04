@@ -1,5 +1,5 @@
 /* eslint-disable no-useless-escape */
-import { ConfigPlugin, IOSConfig, withAppDelegate, BaseMods } from "@expo/config-plugins"
+import { ConfigPlugin, IOSConfig, withAppDelegate, BaseMods } from "expo/config-plugins"
 import fs from "fs"
 
 export const setAppDelegateHeader: ConfigPlugin = config =>

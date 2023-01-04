@@ -1,4 +1,4 @@
-import { AndroidConfig, ConfigPlugin, createRunOncePlugin } from "@expo/config-plugins"
+import { AndroidConfig, ConfigPlugin, createRunOncePlugin } from "expo/config-plugins"
 
 import { withBLEAndroidManifest } from "./withBLEAndroidManifest"
 import { BackgroundMode, withBLEBackgroundModes } from "./withBLEBackgroundModes"

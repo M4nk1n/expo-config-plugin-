@@ -1,4 +1,4 @@
-import { ConfigPlugin, withAppBuildGradle, withSettingsGradle } from "@expo/config-plugins"
+import { ConfigPlugin, withAppBuildGradle, withSettingsGradle } from "expo/config-plugins"
 
 /**
  * 配置 Android build.gradle
