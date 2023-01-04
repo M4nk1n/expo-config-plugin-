@@ -6,9 +6,9 @@
   "scripts": {
     "bootstrap": "pnpm install",
     "build": "pnpm -r run build",
+    "publishAll": "pnpm -r run publish",
     "clean": "pnpm -r run clean",
-    "clean:lib": "rm -rf node_modules pnpm-lock.yaml && find . -maxdepth 3 -type dir -name node_modules -print | xargs rm -rf",
-    "publishAll": "pnpm --filter '@mankin/*' publish --access public"
+    "clean:lib": "rm -rf node_modules pnpm-lock.yaml && find . -maxdepth 3 -type dir -name node_modules -print | xargs rm -rf"
   },
   "devDependencies": {
     "@babel/core": "^7.19.1",

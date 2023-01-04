@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "build": "tsc --build",
-    "clean": "rm -rf build tsconfig.tsbuildinfo"
+    "clean": "rm -rf build tsconfig.tsbuildinfo",
+    "publish": "pnpm publish --access public"
   },
   "keywords": [
     "react-native",
