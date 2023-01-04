@@ -6,7 +6,8 @@
   "scripts": {
     "bootstrap": "pnpm install",
     "build": "pnpm -r run build",
-    "publishAll": "pnpm -r run publish",
+    "publish": "pnpm -r run publish",
+    "publishAll": "pnpm --filter '@mankin/*' publish --access public",
     "clean": "pnpm -r run clean",
     "clean:lib": "rm -rf node_modules pnpm-lock.yaml && find . -maxdepth 3 -type dir -name node_modules -print | xargs rm -rf"
   },
