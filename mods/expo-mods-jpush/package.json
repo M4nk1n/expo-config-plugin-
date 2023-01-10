@@ -1,6 +1,6 @@
 {
   "name": "@mankin/expo-mods-jpush",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Config plugin to auto configure jpush on prebuild",
   "main": "build/withJPush.js",
   "types": "build/withJPush.d.ts",
