@@ -1656,7 +1656,7 @@ packages:
       '@expo/json-file': 8.2.36
       debug: 4.3.4
       expo-modules-autolinking: 0.10.3
-      fs-extra: 9.0.0
+      fs-extra: 9.1.0
       resolve-from: 5.0.0
       semver: 7.3.2
       xml2js: 0.4.23
