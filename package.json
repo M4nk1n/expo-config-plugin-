@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Config plugin to auto configure on prebuild",
-  "packageManager": "pnpm@7.23.0",
+  "packageManager": "pnpm@7.24.3",
   "engines": {
     "node": ">=16.9.0",
     "pnpm": ">=7"
@@ -23,8 +23,6 @@
     "eslint": "^8.23.0",
     "eslint-config-universe": "^11.0.0",
     "prettier": "^2.7.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "typescript": "^4.8.0"
   }
 }

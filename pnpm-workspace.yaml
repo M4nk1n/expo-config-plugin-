@@ -1,3 +1,4 @@
 packages:
   - 'mods/**'
   - 'plugins/**'
+  - 'example/**'
