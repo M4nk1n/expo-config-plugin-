@@ -20,7 +20,7 @@
   "scripts": {
     "prepare": "pnpm clean && pnpm build",
     "build": "tsc --build",
-    "clean": "rimraf build ./tsconfig.tsbuildinfo"
+    "clean": "npx rimraf build ./tsconfig.tsbuildinfo"
   },
   "keywords": [
     "react-native",
