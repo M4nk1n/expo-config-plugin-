@@ -1,6 +1,6 @@
 {
   "name": "@mankin/expo-mods-localized-name",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Support a localized application name with expo",
   "main": "build/withLocalizedName.js",
   "types": "build/withLocalizedName.d.ts",
