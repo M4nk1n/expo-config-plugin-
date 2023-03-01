@@ -2,20 +2,24 @@
   "name": "example",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "start": "expo start",
+    "start": "expo start --dev-client",
     "expo:prebuild": "expo prebuild --no-install --clean",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "dependencies": {
+    "expo": "~48.0.4",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-native": "0.71.3",
+    "expo-splash-screen": "~0.18.1"
+  },
+  "devDependencies": {
     "@mankin/expo-mods-ble": "workspace:*",
     "@mankin/expo-mods-jpush": "workspace:*",
-    "expo": "~47.0.12",
-    "expo-status-bar": "~1.4.2",
-    "react": "18.1.0",
-    "react-native": "0.70.5"
-  },
-  "private": true
+    "@mankin/expo-mods-localized-name": "workspace:*",
+    "@babel/core": "^7.20.0"
+  }
 }

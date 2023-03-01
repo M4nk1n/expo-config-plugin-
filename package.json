@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "Config plugin to auto configure on prebuild",
-  "packageManager": "pnpm@7.24.3",
+  "packageManager": "pnpm@7.28.0",
   "engines": {
     "node": ">=16.9.0",
     "pnpm": ">=7"
@@ -14,10 +14,9 @@
     "publish": "pnpm -r run publish",
     "publishAll": "pnpm --filter '@mankin/*' publish --access public",
     "clean": "pnpm -r run clean",
-    "clean:lib": "rm -rf node_modules pnpm-lock.yaml && find . -maxdepth 3 -type dir -name node_modules -print | xargs rm -rf"
+    "clean:lib": "rm -rf node_modules && find . -maxdepth 3 -type dir -name node_modules -print | xargs rm -rf"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.1",
     "@tsconfig/node16": "^1.0.0",
     "@types/node": "^18.11.18",
     "eslint": "^8.23.0",

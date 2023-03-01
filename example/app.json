@@ -18,16 +18,47 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "com.mankin.example",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.mankin.example",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.BLUETOOTH",
+        "android.permission.BLUETOOTH_ADMIN",
+        "android.permission.BLUETOOTH_CONNECT"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "locales": {
+      "zh": "./locales/zh.json",
+      "en": "./locales/en.json"
+    },
+    "plugins": [
+      "@mankin/expo-mods-localized-name",
+      [
+        "@mankin/expo-mods-jpush",
+        {
+          "appKey": "123456",
+          "channel": "default"
+        }
+      ],
+      [
+        "@mankin/expo-mods-ble",
+        {
+          "isBackgroundEnabled": true,
+          "neverForLocation": true,
+          "bluetoothAlwaysPermission": "用于扫描、添加和使用威能的蓝牙设备.",
+          "bluetoothPeripheralPermission": "用于扫描、添加和使用威能的蓝牙设备."
+        }
+      ]
+    ]
   }
 }
