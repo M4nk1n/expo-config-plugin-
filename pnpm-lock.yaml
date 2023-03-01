@@ -4,14 +4,14 @@ importers:
 
   .:
     specifiers:
-      '@tsconfig/node16': ^1.0.0
+      '@tsconfig/node-lts': latest
       '@types/node': ^18.11.18
       eslint: ^8.23.0
       eslint-config-universe: ^11.0.0
       prettier: ^2.7.0
       typescript: ^4.8.0
     devDependencies:
-      '@tsconfig/node16': 1.0.3
+      '@tsconfig/node-lts': 18.12.1
       '@types/node': 18.14.2
       eslint: 8.35.0
       eslint-config-universe: 11.2.0_64jebu3ilvs7epq3v3pc7ikc4m
@@ -2188,8 +2188,8 @@ packages:
       '@sinonjs/commons': 2.0.0
     dev: false
 
-  /@tsconfig/node16/1.0.3:
-    resolution: {integrity: sha512-yOlFc+7UtL/89t2ZhjPvvB/DeAr3r+Dq58IgzsFkOAvVC6NMJXmCGjbptdXdR9qsX7pKcTL+s87FtYREi2dEEQ==}
+  /@tsconfig/node-lts/18.12.1:
+    resolution: {integrity: sha512-UkIaMWDwJ+qJX/os8lzYh7m47qQJY7sIp1WZiEStASrpzczp27+jA0fJES+IjnS2OlDDLeBghNrVkKw8iYIRdA==}
     dev: true
 
   /@types/istanbul-lib-coverage/2.0.4:

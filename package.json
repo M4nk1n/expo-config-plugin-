@@ -1,7 +1,6 @@
 {
   "name": "expo-modules",
   "version": "1.0.0",
-  "private": true,
   "description": "Config plugin to auto configure on prebuild",
   "packageManager": "pnpm@7.28.0",
   "engines": {
@@ -10,14 +9,13 @@
   },
   "scripts": {
     "bootstrap": "pnpm install",
-    "build": "pnpm -r run build",
-    "publish": "pnpm -r run publish",
-    "publishAll": "pnpm --filter '@mankin/*' publish --access public",
-    "clean": "pnpm -r run clean",
-    "clean:lib": "rm -rf node_modules && find . -maxdepth 3 -type dir -name node_modules -print | xargs rm -rf"
+    "publishAll": "pnpm --filter '@mankin/*' -r publish",
+    "build": "pnpm --filter '@mankin/*' -r run build",
+    "clean:build": "pnpm --filter '@mankin/*' -r run clean",
+    "clean:lib": "rimraf node_modules && find . -maxdepth 3 -type dir -name node_modules -print | xargs rimraf"
   },
   "devDependencies": {
-    "@tsconfig/node16": "^1.0.0",
+    "@tsconfig/node-lts": "latest",
     "@types/node": "^18.11.18",
     "eslint": "^8.23.0",
     "eslint-config-universe": "^11.0.0",

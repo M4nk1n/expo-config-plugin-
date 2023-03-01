@@ -4,6 +4,9 @@
   "description": "Config plugin to auto configure jpush on prebuild",
   "main": "build/withJPush.js",
   "types": "build/withJPush.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "sideEffects": false,
   "repository": {
     "type": "git",
@@ -15,9 +18,9 @@
     "app.plugin.js"
   ],
   "scripts": {
+    "prepare": "pnpm clean && pnpm build",
     "build": "tsc --build",
-    "clean": "rm -rf build tsconfig.tsbuildinfo",
-    "publish": "pnpm publish --access public"
+    "clean": "rimraf build ./tsconfig.tsbuildinfo"
   },
   "keywords": [
     "react-native",
