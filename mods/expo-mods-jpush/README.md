@@ -6,21 +6,16 @@
 
 ## 1. 安装
 
-| Expo Version  | Latest Mod Version  |
-| :-----------: | :-----------------: |
-| <47           | 0.0.2-1             |
-| >=47          | latest              |
-
 首先通过 [`expo install`](https://docs.expo.io/workflow/expo-cli/#expo-install) 或者 `pnpm/yarn/npm` 等包管理工具安装本依赖。
 
 ```bash
-npx expo install @mankin/expo-mods-jpush
+npm install -D @mankin/expo-mods-jpush
 ```
 
 > 注意：如果项目里没有 jpush-react-native、jcore-react-native, 需要安装
 >
 > ```bash
-> yarn add jpush-react-native jcore-react-native
+> npm install jpush-react-native jcore-react-native
 > ```
 
 ## 2. 配置
