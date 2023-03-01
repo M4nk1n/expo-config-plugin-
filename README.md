@@ -10,5 +10,6 @@
 | ---------------------------------- | :----------------------------------------------------------------------------------: |
 | [@mankin/expo-mods-ble](/mods/expo-mods-ble)       | [![badge](https://img.shields.io/npm/v/@mankin/expo-mods-ble.svg)](https://www.npmjs.com/package/@mankin/expo-mods-ble)        |
 | [@mankin/expo-mods-jpush](/mods/expo-mods-jpush)   | [![badge](https://img.shields.io/npm/v/@mankin/expo-mods-jpush.svg)](https://www.npmjs.com/package/@mankin/expo-mods-jpush)      |
+| [@mankin/expo-mods-localized-name](/mods/expo-mods-localized-name)   | [![badge](https://img.shields.io/npm/v/@mankin/expo-mods-localized-name.svg)](https://www.npmjs.com/package/@mankin/expo-mods-localized-name)      |
 
 ### Plugins
