@@ -52,10 +52,15 @@ xcuserdata
 .history/
 
 # Ignore build folders
-
 packages/*/build/**
 packages/*/plugin/build/**
 packages/@*/*/build/**
+mods/*/build/**
+mods/*/plugin/build/**
+mods/@*/*/build/**
+plugins/*/build/**
+plugins/*/plugin/build/**
+plugins/@*/*/build/**
 
 
 # App native folders

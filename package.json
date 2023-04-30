@@ -2,7 +2,7 @@
   "name": "expo-modules",
   "version": "1.0.0",
   "description": "Config plugin to auto configure on prebuild",
-  "packageManager": "pnpm@7.28.0",
+  "packageManager": "pnpm@8.3.1",
   "engines": {
     "node": ">=16.9.0",
     "pnpm": ">=7"
