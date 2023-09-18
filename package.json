@@ -9,10 +9,10 @@
   },
   "scripts": {
     "bootstrap": "pnpm install",
-    "publishAll": "pnpm --filter '@mankin/*' -r publish",
-    "build": "pnpm --filter '@mankin/*' -r run build",
-    "clean:build": "pnpm --filter '@mankin/*' -r run clean",
-    "clean:lib": "npx rimraf node_modules && find . -maxdepth 3 -type dir -name node_modules -print | xargs npx rimraf"
+    "build:all": "pnpm --filter '@mankin/*' -r run build",
+    "publish:all": "pnpm --filter '@mankin/*' -r publish",
+    "clean:all": "pnpm --filter '@mankin/*' -r run clean",
+    "nuke:node_modules": "rimraf --glob '**/node_modules'"
   },
   "devDependencies": {
     "@tsconfig/node-lts": "latest",
@@ -20,6 +20,7 @@
     "eslint": "^8.23.0",
     "eslint-config-universe": "^11.0.0",
     "prettier": "^2.7.0",
+    "rimraf": "latest",
     "typescript": "^4.8.0"
   }
 }
