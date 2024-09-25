@@ -1,6 +1,6 @@
 {
   "name": "@mankin/react-native-alert",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Polyfill for Alert.prompt on Android",
   "source": "src",
   "main": "build/index.js",
