@@ -68,8 +68,11 @@ public class RNPromptFragment extends DialogFragment implements DialogInterface.
 
         // AlertDialog style
         switch (style) {
-            case "demo":
-                builder = new AlertDialog.Builder(activityContext, R.style.DemoAlertDialogStyle);
+            case "default":
+                builder = new AlertDialog.Builder(activityContext, R.style.DefaultAlertDialogStyle);
+                break;
+            case "none":
+                builder = new AlertDialog.Builder(activityContext);
                 break;
             default:
                 builder = new AlertDialog.Builder(activityContext);
@@ -102,8 +105,11 @@ public class RNPromptFragment extends DialogFragment implements DialogInterface.
         LayoutInflater inflater = LayoutInflater.from(activityContext);
         final EditText input;
         switch (style) {
-            case "demo":
+            case "default":
                 input = (EditText) inflater.inflate(R.layout.edit_text, null);
+                break;
+            case "none":
+                input = new EditText(activityContext);
                 break;
             default:
                 input = new EditText(activityContext);

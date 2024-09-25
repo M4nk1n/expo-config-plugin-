@@ -4,7 +4,7 @@ type PromptType = 'default' | 'plain-text' | 'secure-text'
 type PromptTypeIOS = 'login-password'
 type PromptTypeAndroid = 'numeric' | 'email-address' | 'phone-pad'
 
-type PromptStyleAndroid = 'default' | 'demo'
+type PromptStyleAndroid = 'none' | 'default'
 
 export type PromptButton = {
   text?: string
