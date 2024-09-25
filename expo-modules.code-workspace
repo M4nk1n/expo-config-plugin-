@@ -1,29 +1,29 @@
 {
   "folders": [
     {
-      "name": "🌳 root",
+      "name": "✨ expo-modules",
       "path": "."
     },
     {
-      "name": "🎁 example",
+      "name": "example",
       "path": "example"
     },
     {
-      "name": "🚀 mods-ble",
+      "name": "@mankin/expo-mods-ble",
       "path": "mods/expo-mods-ble"
     },
     {
-      "name": "🚀 mods-jpush",
+      "name": "@mankin/expo-mods-jpush",
       "path": "mods/expo-mods-jpush"
     },
     {
-      "name": "🚀 mods-localized-name",
+      "name": "@mankin/expo-mods-localized-name",
       "path": "mods/expo-mods-localized-name"
     },
-    // {
-    //   "name": "🎉 plugins-",
-    //   "path": "plugins/"
-    // }
+    {
+      "name": "@mankin/react-native-alert",
+      "path": "plugins/react-native-alert"
+    }
   ],
   "extensions": {
     "recommendations": [
@@ -35,7 +35,7 @@
   },
   "settings": {
     "files.exclude": { "**/.git": false },
-    "npm.exclude": "**/@(node_modules|dist|build|static|.cache)/**",
+    "npm.exclude": "**/@(node_modules|dist|build|static|.cache|mods|plugins)/**",
     "npm.packageManager": "pnpm",
     "npm.scriptExplorerExclude": ["^install$", "^lint"],
     "typescript.tsdk": "node_modules/typescript/lib",
@@ -43,7 +43,7 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
+      "source.fixAll.eslint": "explicit"
     },
     // Disable vscode formatting for js,jsx,ts,tsx files
     // to allow dbaeumer.vscode-eslint to format them

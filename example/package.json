@@ -10,16 +10,15 @@
     "ios": "expo run:ios"
   },
   "dependencies": {
-    "expo": "~48.0.15",
-    "expo-status-bar": "~1.4.4",
+    "expo": "~51.0.34",
     "react": "18.2.0",
-    "react-native": "0.71.7",
-    "expo-splash-screen": "~0.18.2"
+    "react-native": "0.74.5"
   },
   "devDependencies": {
     "@mankin/expo-mods-ble": "workspace:*",
     "@mankin/expo-mods-jpush": "workspace:*",
     "@mankin/expo-mods-localized-name": "workspace:*",
+    "@mankin/react-native-alert": "workspace:*",
     "@babel/core": "^7.20.0"
   }
 }

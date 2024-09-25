@@ -16,11 +16,11 @@
   },
   "devDependencies": {
     "@tsconfig/node-lts": "latest",
-    "@types/node": "^18.11.18",
+    "@types/node": "^18",
     "eslint": "^8.23.0",
     "eslint-config-universe": "^11.0.0",
-    "prettier": "^2.7.0",
+    "prettier": "^3.3.3",
     "rimraf": "latest",
-    "typescript": "^4.8.0"
+    "typescript": "^5"
   }
 }

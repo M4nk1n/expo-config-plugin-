@@ -61,7 +61,7 @@ mods/@*/*/build/**
 plugins/*/build/**
 plugins/*/plugin/build/**
 plugins/@*/*/build/**
-
+*.tsbuildinfo
 
 # App native folders
 
