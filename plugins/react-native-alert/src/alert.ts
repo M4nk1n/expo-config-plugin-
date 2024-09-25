@@ -2,7 +2,15 @@ import { NativeModules } from 'react-native'
 
 import type { Prompt } from './types'
 
+const LINKING_ERROR =
+  `The package 'react-native-alert' doesn't seem to be linked. Make sure: \n\n` +
+  '- You rebuilt the app after installing the package\n' +
+  '- You are not using Expo Go\n'
+
 const PromptAndroid = NativeModules.PromptAndroid
+  ? NativeModules.PromptAndroid
+  : new Proxy({}, { get() { throw new Error(LINKING_ERROR) } })
+
 
 export const prompt: Prompt = (title, message, callbackOrButtons, options) => {
   const defaultButtons = [
