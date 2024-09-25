@@ -13,3 +13,7 @@
 | [@mankin/expo-mods-localized-name](/mods/expo-mods-localized-name)   | [![badge](https://img.shields.io/npm/v/@mankin/expo-mods-localized-name.svg)](https://www.npmjs.com/package/@mankin/expo-mods-localized-name)      |
 
 ### Plugins
+
+| Name                               | Latest Version                                                                       |
+| ---------------------------------- | :----------------------------------------------------------------------------------: |
+| [@mankin/react-native-alert](/plugins/react-native-alert)       | [![badge](https://img.shields.io/npm/v/@mankin/react-native-alert.svg)](https://www.npmjs.com/package/@mankin/react-native-alert)        |
