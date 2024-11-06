@@ -1,4 +1,9 @@
 packages:
-  - 'mods/**'
-  - 'plugins/**'
-  - 'example/**'
+  - "mods/**"
+  - "plugins/**"
+  - "example/**"
+
+catalogs:
+  # Can be referenced through 'catalog:expo-config'
+  expo-config:
+    "@expo/config-plugins": ^8.0.10

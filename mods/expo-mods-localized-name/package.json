@@ -31,8 +31,8 @@
     "preset": "expo-module-scripts"
   },
   "devDependencies": {
+    "@expo/config-plugins": "catalog:expo-config",
     "@types/xml2js": "^0.4.11",
-    "@expo/config-plugins": "^6.0.1",
     "xml2js": "^0.4.23"
   }
 }
