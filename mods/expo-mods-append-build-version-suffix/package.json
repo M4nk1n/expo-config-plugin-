@@ -1,0 +1,35 @@
+{
+  "name": "@mankin/expo-mods-append-build-version-suffix",
+  "version": "0.0.1",
+  "description": "Append a build version suffix with expo",
+  "main": "build/withSuffix.js",
+  "types": "build/withSuffix.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M4nk1n/expo-modules.git",
+    "directory": "mods/expo-mods-append-build-version-suffix"
+  },
+  "files": [
+    "build",
+    "app.plugin.js"
+  ],
+  "scripts": {
+    "prepare": "pnpm clean && pnpm build",
+    "build": "tsc --build",
+    "clean": "rimraf build tsconfig.tsbuildinfo"
+  },
+  "keywords": [
+    "react-native",
+    "expo"
+  ],
+  "jest": {
+    "preset": "expo-module-scripts"
+  },
+  "devDependencies": {
+    "@expo/config-plugins": "catalog:expo-config"
+  }
+}

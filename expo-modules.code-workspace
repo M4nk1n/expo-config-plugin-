@@ -9,6 +9,10 @@
       "path": "example"
     },
     {
+      "name": "@mankin/expo-mods-append-build-version-suffix",
+      "path": "mods/expo-mods-append-build-version-suffix"
+    },
+    {
       "name": "@mankin/expo-mods-ble",
       "path": "mods/expo-mods-ble"
     },
