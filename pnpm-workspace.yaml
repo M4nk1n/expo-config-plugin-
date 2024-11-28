@@ -4,6 +4,13 @@ packages:
   - "example/**"
 
 catalogs:
-  # Can be referenced through 'catalog:expo-config'
-  expo-config:
-    "@expo/config-plugins": ^8.0.10
+  # Can be referenced through 'catalog:expo-52'
+  expo-52:
+    '@babel/core': ^7.25.2
+    '@types/node': ^22.9.0
+    '@types/react': ^18.3.1
+    eslint-config-universe: ^14.0.0
+    expo: ~52.0.11
+    react: ^18.3.1
+    react-native: 0.76.3
+    typescript: ^5.3.3

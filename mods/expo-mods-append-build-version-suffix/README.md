@@ -5,7 +5,7 @@ Config plugin to auto-append build version suffix when the native code is genera
 ## Expo installation
 
 ```bash
-npm install -D @mankin/expo-mods-append-build-version-suffix
+npm install @mankin/expo-mods-append-build-version-suffix
 ```
 
 After installing this npm package, add node env `EXPO_PUBLIC_BUILD_SUFFIX`

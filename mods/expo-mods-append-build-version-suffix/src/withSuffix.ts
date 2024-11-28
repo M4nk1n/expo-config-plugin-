@@ -1,9 +1,9 @@
-import { ConfigPlugin, createRunOncePlugin } from "@expo/config-plugins"
+import { ConfigPlugin, createRunOncePlugin } from "expo/config-plugins"
 
 import { withAndroidBundleVersionSuffix } from "./withAndroidSuffix"
 import { withIOSBundleVersionSuffix } from "./withIOSSuffix"
 
-const pkg = { name: "build-version-suffix", version: "UNVERSIONED" }
+const pkg = { name: "expo-mods-append-build-version-suffix", version: "UNVERSIONED" }
 
 /**
  * Apply native configuration.

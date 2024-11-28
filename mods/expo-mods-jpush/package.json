@@ -1,6 +1,6 @@
 {
   "name": "@mankin/expo-mods-jpush",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Config plugin to auto configure jpush on prebuild",
   "main": "build/withJPush.js",
   "types": "build/withJPush.d.ts",
@@ -30,7 +30,12 @@
   "jest": {
     "preset": "expo-module-scripts"
   },
-  "devDependencies": {
-    "@expo/config-plugins": "catalog:expo-config"
+  "peerDependencies": {
+    "expo": ">=47.0.0"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": true
+    }
   }
 }

@@ -7,7 +7,7 @@ Config plugin to auto-configure ble permission when the native code is generated
 ## Expo installation
 
 ```bash
-npm install -D @mankin/expo-mods-ble
+npm install @mankin/expo-mods-ble
 ```
 
 > Tested against Expo SDK 46.

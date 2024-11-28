@@ -1,4 +1,4 @@
-import { ConfigPlugin, withAppBuildGradle } from "@expo/config-plugins"
+import { ConfigPlugin, withAppBuildGradle } from "expo/config-plugins"
 
 /**
  * Append `process.env.EXPO_PUBLIC_BUILD_SUFFIX` to the `versionCode`.

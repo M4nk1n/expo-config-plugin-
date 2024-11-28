@@ -1,4 +1,4 @@
-import { ConfigPlugin, withStringsXml, AndroidConfig } from "@expo/config-plugins"
+import { AndroidConfig, ConfigPlugin, withStringsXml } from "expo/config-plugins"
 import fs from "fs"
 import path from "path"
 import xml2js from "xml2js"

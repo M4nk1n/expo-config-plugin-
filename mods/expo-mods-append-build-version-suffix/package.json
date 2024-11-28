@@ -1,6 +1,6 @@
 {
   "name": "@mankin/expo-mods-append-build-version-suffix",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Append a build version suffix with expo",
   "main": "build/withSuffix.js",
   "types": "build/withSuffix.d.ts",
@@ -29,7 +29,12 @@
   "jest": {
     "preset": "expo-module-scripts"
   },
-  "devDependencies": {
-    "@expo/config-plugins": "catalog:expo-config"
+  "peerDependencies": {
+    "expo": ">=47.0.0"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": true
+    }
   }
 }

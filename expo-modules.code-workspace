@@ -51,11 +51,24 @@
     },
     // Disable vscode formatting for js,jsx,ts,tsx files
     // to allow dbaeumer.vscode-eslint to format them
+    "eslint.alwaysShowStatus": true,
+    // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
+    "eslint.workingDirectories": [
+      {
+        "pattern": "./mods/*/"
+      },
+      {
+        "pattern": "./plugins/*/"
+      }
+    ],
     "[javascript]": {
       "editor.formatOnSave": false
     },
-    "eslint.alwaysShowStatus": true,
-    // https://github.com/Microsoft/vscode-eslint#mono-repository-setup
-    "eslint.workingDirectories": [{ "pattern": "./mods/*/" }, { "pattern": "./plugins/*/" }]
+    "[typescript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    }
   }
 }

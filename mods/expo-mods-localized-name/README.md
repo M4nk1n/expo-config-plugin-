@@ -5,7 +5,7 @@ Config plugin to auto-configure localized app name when the native code is gener
 ## Expo installation
 
 ```bash
-npm install -D @mankin/expo-mods-localized-name
+npm install @mankin/expo-mods-localized-name
 ```
 
 > Tested against Expo SDK 47.

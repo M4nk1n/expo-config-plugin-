@@ -2,7 +2,7 @@
   "name": "expo-modules",
   "version": "1.0.0",
   "description": "Config plugin to auto configure on prebuild",
-  "packageManager": "pnpm@9.12.3",
+  "packageManager": "pnpm@9.14.2",
   "engines": {
     "node": ">=18.17.0",
     "pnpm": ">=9.5.0"
@@ -16,11 +16,19 @@
   },
   "devDependencies": {
     "@tsconfig/node-lts": "latest",
-    "@types/node": "^18",
-    "eslint": "^8.23.0",
-    "eslint-config-universe": "^11.0.0",
+    "@types/node": "catalog:expo-52",
+    "@types/react": "catalog:expo-52",
+    "eslint": ">=8.10 <9",
+    "eslint-config-universe": "catalog:expo-52",
     "prettier": "^3.3.3",
     "rimraf": "latest",
-    "typescript": "^5"
+    "typescript": "catalog:expo-52"
+  },
+  "pnpm": {
+    "overrides": {
+      "expo": "catalog:expo-52",
+      "react": "catalog:expo-52",
+      "react-native": "catalog:expo-52"
+    }
   }
 }

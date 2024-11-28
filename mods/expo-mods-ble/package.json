@@ -1,6 +1,6 @@
 {
   "name": "@mankin/expo-mods-ble",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Config plugin to auto configure ble permission on prebuild",
   "main": "build/withBLE.js",
   "types": "build/withBLE.d.ts",
@@ -30,7 +30,12 @@
   "jest": {
     "preset": "expo-module-scripts"
   },
-  "devDependencies": {
-    "@expo/config-plugins": "catalog:expo-config"
+  "peerDependencies": {
+    "expo": ">=47.0.0"
+  },
+  "peerDependenciesMeta": {
+    "expo": {
+      "optional": true
+    }
   }
 }

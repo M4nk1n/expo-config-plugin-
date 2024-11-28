@@ -1,4 +1,4 @@
-import { ConfigPlugin, withInfoPlist } from "@expo/config-plugins"
+import { ConfigPlugin, withInfoPlist } from "expo/config-plugins"
 
 /**
  * Append `process.env.EXPO_PUBLIC_BUILD_SUFFIX` to the `CFBundleVersion`.

@@ -14,9 +14,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "bundleIdentifier": "com.mankin.example",
       "supportsTablet": true
@@ -42,6 +40,7 @@
       "en": "./locales/en.json"
     },
     "plugins": [
+      "@mankin/expo-mods-append-build-version-suffix",
       "@mankin/expo-mods-localized-name",
       [
         "@mankin/expo-mods-jpush",

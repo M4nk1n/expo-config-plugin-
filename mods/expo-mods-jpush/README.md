@@ -9,7 +9,7 @@
 首先通过 [`expo install`](https://docs.expo.io/workflow/expo-cli/#expo-install) 或者 `pnpm/yarn/npm` 等包管理工具安装本依赖。
 
 ```bash
-npm install -D @mankin/expo-mods-jpush
+npm install @mankin/expo-mods-jpush
 ```
 
 > 注意：如果项目里没有 jpush-react-native、jcore-react-native, 需要安装

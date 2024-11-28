@@ -1,4 +1,4 @@
-import { ConfigPlugin, withInfoPlist } from "@expo/config-plugins"
+import { ConfigPlugin, withInfoPlist } from "expo/config-plugins"
 
 /**
  * Append `CFBundleAllowMixedLocalizations` to the `Info.plist`.

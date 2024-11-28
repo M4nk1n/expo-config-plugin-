@@ -1,4 +1,4 @@
-import { AndroidConfig, ConfigPlugin, createRunOncePlugin } from "@expo/config-plugins"
+import { AndroidConfig, ConfigPlugin, createRunOncePlugin } from "expo/config-plugins"
 
 import { setAppBuildGradle, setSettingsGradle } from "./withAndroidGradle"
 import { setAndroidManifest } from "./withAndroidManifest"
